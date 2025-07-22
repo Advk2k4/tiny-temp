@@ -21,7 +21,6 @@ TinyTemp is a lightweight, low-power temperature monitoring project built using 
 TinyTemp/
 ├── tinyOLED.h         # OLED + I2C library header for ATtiny
 ├── tinyOLED.c         # OLED + I2C library source
-├── tinyOLEDtest.c     # Main program to drive the temperature monitor
 ├── megaTempSleep.h    # Contains watchdog and sleep mode helper functions
 ├── makefile           # Makefile to compile the project with AVR-GCC
 ```
@@ -54,7 +53,7 @@ TinyTemp/
 
 Ensure `avr-gcc`, `avrdude`, and `make` are installed.
 
-```bash
+```bas
 make
 ```
 
@@ -71,7 +70,7 @@ make flash
 ## 🧪 Authors
 
 Developed by Aadvik Mishra & Gautam Jayakishan  
-ECE-304 Spring 2024 – University of Massachusetts Amherst
+ECE-304 Spring 2025 – University of Massachusetts Amherst
 
 ---
 
